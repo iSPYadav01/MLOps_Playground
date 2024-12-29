@@ -87,7 +87,7 @@ To track large files (like datasets) with Git LFS:
    ```bash
    git add .gitattributes
    git commit -m "Configure Git LFS to track .csv files"
-   git push origin main
+   git push origin Dev_Branch_iSPYadav01
    ```
 
 ---
@@ -97,6 +97,58 @@ To track large files (like datasets) with Git LFS:
 
 1. Initialize DVC in the repository:
 
+The error indicates that the folder `Excersise_3` is not tracked by Git, or it is part of a directory structure where Git hasn't been initialized or set up correctly. Here's how to resolve this issue:
+
+#### 1. **Check Git Setup in Parent Directory**  
+   Navigate to the parent directory (`MLOps_Playground`) and ensure that Git is initialized:
+   ```bash
+   cd G:\Programming_Playground\Python_Programming\MLOps\Remote\MLOps_Playground
+   git status
+   ```
+   If Git is initialized, you should see the status of your repository. If not, initialize Git:
+   ```bash
+   git init
+   ```
+
+#### 2. **Add Subfolder to Git Tracking**  
+   Ensure the `Excersise_3` folder is tracked by Git:
+   ```bash
+   git add Excersise_3
+   git commit -m "Add Excersise_3 folder to Git tracking"
+   ```
+
+#### 3. **Run `dvc init` in the Main Directory**  
+   Since `Excersise_3` is part of the larger repository, you should initialize DVC at the root level (`MLOps_Playground`) instead of the subfolder:
+   ```bash
+   cd G:\Programming_Playground\Python_Programming\MLOps\Remote\MLOps_Playground
+   dvc init
+   git commit -m "Initialize DVC in MLOps_Playground"
+   ```
+
+#### 4. **Track Folder with DVC (if needed)**  
+   If you want to track specific files or folders inside `Excersise_3` with DVC, run:
+   ```bash
+   dvc add Excersise_3
+   git add Excersise_3.dvc .gitignore
+   git commit -m "Track Excersise_3 with DVC"
+   ```
+
+---
+
+### Alternative: Initialize DVC Without Git (`--no-scm`)
+
+If you don't want to use Git for some reason, you can initialize DVC independently in the `Excersise_3` folder:
+```bash
+cd G:\Programming_Playground\Python_Programming\MLOps\Remote\MLOps_Playground\Excersise_3
+dvc init --no-scm
+```
+
+### Notes:
+- Make sure your parent directory (`MLOps_Playground`) is the correct Git repository root.
+- Use `--subdir` with `dvc init` only if you're working in a nested structure intentionally, and Git is already initialized in the parent directories.
+
+Now, try running `dvc init` again after making sure Git and folder tracking are properly set up.
+
    ```bash
    dvc init
    ```
@@ -104,7 +156,7 @@ To track large files (like datasets) with Git LFS:
 2. Track your datasets with DVC:
 
    ```bash
-   dvc add data/sample.csv
+   dvc add Excersise_3/data/sample.csv
    ```
 
 3. Configure DVC to connect to remote storage:
@@ -134,7 +186,7 @@ Navigate to the Python script (e.g., `mlops_script.py`) that simulates model tra
 Execute the script in the terminal:
 
 ```bash
-python mlops_script.py
+python wandb_example.py
 ```
 
 This script will log metrics such as accuracy and loss in real-time and display the logs on your **WandB** dashboard.
