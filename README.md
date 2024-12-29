@@ -141,6 +141,77 @@ For every training session, you’ll log performance statistics so that results 
 
 ---
 
+## Work with Dev Branch
+To create a feature branch named `Dev_Branch_iSPYadav01` and proceed with the steps as described, here’s what you need to do:
+
+### 1. **Create a New Feature Branch**
+
+Ensure you're on the `main` branch first, and then create and switch to your new feature branch:
+
+```bash
+git checkout main  # Ensure you're on the main branch
+git pull origin main  # Pull the latest changes from the remote repository
+
+git checkout -b Dev_Branch_iSPYadav01  # Create and switch to the feature branch
+```
+
+### 2. **Make Changes on the Feature Branch**
+
+Make your desired changes to the `Excersise_1` and `Excersise_3` folders or any other updates you need.
+
+### 3. **Stage the Changes**
+
+After making your changes, stage them with:
+
+```bash
+git add .
+```
+
+### 4. **Commit the Changes**
+
+Once the changes are staged, commit them:
+
+```bash
+git commit -m "Updated Excersise_1 and Excersise_3 folders in Dev_Branch_iSPYadav01"
+```
+
+### 5. **Push the Feature Branch to the Remote Repository**
+
+Push your feature branch to GitHub:
+
+```bash
+git push origin Dev_Branch_iSPYadav01
+```
+
+### 6. **Create a Pull Request (PR) on GitHub**
+
+1. Go to your repository on GitHub: [https://github.com/iSPYadav01/MLOps_Playground](https://github.com/iSPYadav01/MLOps_Playground).
+2. A banner will appear asking you to create a pull request for the newly pushed branch. You can also go to the **Pull Requests** tab and click **New pull request**.
+3. Set `main` as the base branch and `Dev_Branch_iSPYadav01` as the compare branch.
+4. Add a title and description for the PR.
+5. Click **Create pull request**.
+
+### 7. **Review and Merge the PR**
+
+After review (if necessary), merge the PR into the `main` branch. 
+
+### 8. **Clean up (Optional)**
+If the branch is no longer needed after the merge, delete it both locally and remotely:
+
+Locally:
+
+```bash
+git branch -d Dev_Branch_iSPYadav01
+```
+
+Remotely:
+
+```bash
+git push origin --delete Dev_Branch_iSPYadav01
+```
+
+
+---
 ## License and Copyright
 
 This repository and its contents are licensed under the **MIT License**. By using or modifying this repository, you agree to comply with the license terms and attribution rules outlined below.
