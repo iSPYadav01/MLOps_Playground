@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.12.1",
+  "startedAt": "2024-12-29T14:10:10.132804Z",
+  "program": "G:\\Programming_Playground\\Python_Programming\\MLOps\\Remote\\MLOps_Playground\\Excersise_3\\wandb_example.py",
+  "codePath": "Excersise_3\\wandb_example.py",
+  "git": {
+    "remote": "https://github.com/iSPYadav01/MLOps_Playground.git",
+    "commit": "9ba07ee4c562ea32e47c16a9bac6f7c613e38fd4"
+  },
+  "email": "yadavsp987@gmail.com",
+  "root": "G:\\Programming_Playground\\Python_Programming\\MLOps\\Remote\\MLOps_Playground\\Excersise_3",
+  "host": "PC-SPOfficial",
+  "executable": "G:\\Programming_Playground\\Python_Programming\\MLOps\\Scripts\\python.exe",
+  "codePathLocal": "wandb_example.py",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "214748360704",
+      "used": "113514905600"
+    }
+  },
+  "memory": {
+    "total": "8494747648"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}
