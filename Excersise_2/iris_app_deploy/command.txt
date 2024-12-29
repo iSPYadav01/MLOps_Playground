@@ -1,0 +1,47 @@
+pip install requirements.txt -r
+pip install fastapi
+
+
+<!-- ########## Flask ############## -->
+flask –-app iris_model run
+
+
+flask run
+
+
+python iris_model.py
+
+<!-- ########## Fastapi ############## -->
+fastapi run iris_model.py
+
+
+<!-- ========================= -->
+<!-- ---------------------------------------------------------------- -->
+<!-- How to Access the Server -->
+Open your browser and navigate to:
+
+Local Access (on the same machine):
+http://127.0.0.1:8000/docs or http://localhost:8000/docs
+Network Access (from another device):
+Find your machine's IP address:
+On Windows, run this in CMD:
+Copy code
+```
+    ipconfig
+```
+Look for the IPv4 Address (e.g., 192.168.x.x).
+Access the server using:
+http://<your-ip>:8000/docs
+If the browser still doesn't work:
+
+Ensure your FastAPI server is running in the terminal.
+Check for firewall settings that might block access on port 8000.
+<!-- ---------------------------------------------------------------- -->
+
+http://192.168.0.104:8000/docs#/default/predict_items__post
+
+
+<!-- You can also test the server using curl in your terminal: -->
+
+curl http://127.0.0.1:8000/docs
+
