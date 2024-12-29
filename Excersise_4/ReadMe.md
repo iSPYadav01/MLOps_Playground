@@ -167,7 +167,6 @@ pandas
 ## **License and Copyright**
 S. Pratap Yadav
 GitHub: iSPYadav01
-Portfolio: https://ispyadav01.github.io/Portfolio/
 
 Follow me on:
 [S. Pratap Yadav](https://ispyadav01.github.io/Portfolio/)
