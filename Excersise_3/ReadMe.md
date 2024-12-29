@@ -302,6 +302,31 @@ For additional help with DVC, Git, and WandB:
 
 ---
 
+## Output Log
+
+(MLOps) PS G:\Programming_Playground\Python_Programming\MLOps\Remote\MLOps_Playground\Excersise_3> python wandb_example.py
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: data-dynasty-lab (data-dynasty-lab-mlops-lab). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in G:\Programming_Playground\Python_Programming\MLOps\Remote\MLOps_Playground\Excersise_3\wandb\run-20241229_194009-80zwonta
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run lucky-wildflower-1
+wandb:  View project at https://wandb.ai/data-dynasty-lab-mlops-lab/MLOpsLab_Excersise_3
+wandb:  View run at https://wandb.ai/data-dynasty-lab-mlops-lab/MLOpsLab_Excersise_3/runs/80zwonta
+wandb:
+wandb:
+wandb: Run history:
+wandb:  acc ▁▂█▆█▆█▇
+wandb: loss █▅▄▃▅▁▄▃
+wandb:  acc 0.88808
+wandb: loss 0.12616
+wandb:
+wandb:  View run lucky-wildflower-1 at: https://wandb.ai/data-dynasty-lab-mlops-lab/MLOpsLab_Excersise_3/runs/80zwonta
+wandb:  View project at: https://wandb.ai/data-dynasty-lab-mlops-lab/MLOpsLab_Excersise_3
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20241229_194009-80zwonta\logs
+
+
 ## **License and Copyright**
 
 This repository and associated content are licensed under the **MIT License**.

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1735492193448
+current_stage: None
+description: null
+last_updated_timestamp: 1735492193448
+name: sk-learn-random-forest-reg-model
+run_id: d6c136161b2647f5880bcf55bbad5bb6
+run_link: null
+source: file:///g:/Programming_Playground/Python_Programming/MLOps/Remote/MLOps_Playground/Excersise_4/mlruns/0/d6c136161b2647f5880bcf55bbad5bb6/artifacts/sklearn-model-v2
+status: READY
+status_message: null
+storage_location: file:///g:/Programming_Playground/Python_Programming/MLOps/Remote/MLOps_Playground/Excersise_4/mlruns/0/d6c136161b2647f5880bcf55bbad5bb6/artifacts/sklearn-model-v2
+user_id: null
+version: 4
