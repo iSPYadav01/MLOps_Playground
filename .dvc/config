@@ -1,0 +1,4 @@
+[core]
+    remote = mlops_playground
+['remote "mlops_playground"']
+    url = https://github.com/iSPYadav01/MLOps_Playground.git
