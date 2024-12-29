@@ -1,0 +1,15 @@
+artifact_uri: file:///g:/Programming_Playground/Python_Programming/MLOps/Remote/MLOps_Playground/Excersise_4/mlruns/0/f659067ca9df4e4e8e9f60cf9a991302/artifacts
+end_time: 1735484504192
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f659067ca9df4e4e8e9f60cf9a991302
+run_name: bittersweet-hawk-566
+run_uuid: f659067ca9df4e4e8e9f60cf9a991302
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735484464348
+status: 3
+tags: []
+user_id: yadav
