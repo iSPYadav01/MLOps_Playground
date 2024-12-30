@@ -13,7 +13,11 @@ Here is the output image:
 
 ### **File Structure**
 ```plaintext
+<<<<<<< HEAD:Exercises/Excersise_4/ReadMe.md
+MLOps_Playground/Exercises/Exercise_4/
+=======
 .
+>>>>>>> 01352fd631d901d6f9a9c8a2453cd62c04afe399:Excersise_4/ReadMe.md
 ├── feature_store.py     # Code to implement the Feast feature store
 ├── model_store.py       # MLflow model store implementation
 ├── feature_store_example.ipynb  # Note Book for Feature Store
@@ -167,6 +171,10 @@ pandas
 ## **License and Copyright**
 S. Pratap Yadav
 GitHub: iSPYadav01
+<<<<<<< HEAD:Exercises/Excersise_4/ReadMe.md
+Portfolio: https://ispyadav01.github.io/Portfolio/
+=======
+>>>>>>> 01352fd631d901d6f9a9c8a2453cd62c04afe399:Excersise_4/ReadMe.md
 
 Follow me on:
 [S. Pratap Yadav](https://ispyadav01.github.io/Portfolio/)
