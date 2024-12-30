@@ -1,3 +1,5 @@
+<<<<<<< HEAD:Exercises/Excersise_4/model_store.py
+=======
 <<<<<<< HEAD
 from sklearn.datasets import make_regression
 from sklearn.ensemble import RandomForestRegressor
@@ -59,6 +61,7 @@ model = mlflow.pyfunc.load_model(model_uri=f"models:/{model_name}/{model_version
 
 model
 =======
+>>>>>>> 01352fd631d901d6f9a9c8a2453cd62c04afe399:Excersise_4/model_store.py
 import mlflow
 import mlflow.sklearn
 from sklearn.datasets import make_regression
@@ -80,4 +83,7 @@ mlflow.log_metric("r2_score", model.score(X_test, y_test))
 logged_model = "runs:/<run-id>/model"
 loaded_model = mlflow.pyfunc.load_model(logged_model)
 print(loaded_model.predict(X_test[:1]))
+<<<<<<< HEAD:Exercises/Excersise_4/model_store.py
+=======
 >>>>>>> 9e8de85791c56f69b71050f3298b6b1d8cfc5eb2
+>>>>>>> 01352fd631d901d6f9a9c8a2453cd62c04afe399:Excersise_4/model_store.py
