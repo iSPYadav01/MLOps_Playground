@@ -4,6 +4,18 @@ Welcome to **Exercise 3** of the **MLOps Playground Repository**! In this exerci
 
 ---
 
+## **1. Project Overview**
+
+### **File Structure**
+```plaintext
+MLOps_Playground/Exercises/Exercise_3/
+├── iris_app_deploy/        # Project root directory
+│   ├── README.md           # Documentation (you're reading this)
+│   ├── wandb_example.py    # Script to train and save the model
+│   ├── requirements.txt    # Required dependencies for the project)
+```
+
+
 ## **Prerequisites**
 
 Make sure you have the following tools installed on your local machine before starting Exercise 3:
