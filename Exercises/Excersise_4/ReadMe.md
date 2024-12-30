@@ -13,7 +13,7 @@ Here is the output image:
 
 ### **File Structure**
 ```plaintext
-.
+MLOps_Playground/Exercises/Exercise_4/
 ├── feature_store.py     # Code to implement the Feast feature store
 ├── model_store.py       # MLflow model store implementation
 ├── feature_store_example.ipynb  # Note Book for Feature Store

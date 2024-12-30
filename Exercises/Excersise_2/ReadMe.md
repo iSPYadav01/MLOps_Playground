@@ -12,12 +12,14 @@ Here is the Output Image
 
 ### **File Structure**
 ```plaintext
-.
-├── train.py            # Script to train and save the model
-├── iris_model.py       # Flask and FastAPI implementation for predictions
-├── model.joblib        # Trained model saved using Joblib
-├── Dockerfile          # Docker configuration for containerization
-├── requirements.txt    # Required dependencies for the project
+MLOps_Playground/Exercises/Exercise_2/
+├── iris_app_deploy/        # Project root directory
+│   ├── README.md           # Documentation (you're reading this)
+│   ├── train.py            # Script to train and save the model
+│   ├── iris_model.py       # Flask and FastAPI implementation for predictions
+│   ├── model.joblib        # Trained model saved using Joblib
+│   ├── Dockerfile          # Docker configuration for containerization
+│   ├── requirements.txt    # Required dependencies for the project)
 ```
 
 ---

@@ -6,6 +6,7 @@ This repository demonstrates the implementation of a Random Forest classifier fo
 
 ```plaintext
 .
+MLOps_Playground/Exercises/Exercise_1/
 ├── iris_classification/         # Project root directory
 │   ├── README.md                # Documentation (you're reading this)
 │   ├── iris_classification.py   # Main Python script for model training and evaluation
